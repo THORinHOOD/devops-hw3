@@ -1,16 +1,3 @@
-# from flask import Flask, request, send_from_directory, make_response
-# from datetime import date
-
-# app = Flask(__name__, static_url_path='/', static_folder='')
-
-# @app.route('/', methods=['GET'])
-# def index():
-#     today = date.today()
-#     return "Today : " + str(today) + "</br> Browser fingerprint : " + str(request.headers['User-Agent'])
-
-# if __name__ == "__main__":
-#     app.run()
-
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from datetime import date
 
